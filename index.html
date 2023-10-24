@@ -90,11 +90,11 @@
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos Lançamentos</h2>
         <!-- Slider main container -->
+        <div class="carrossel__container">
     <div class="swiper">
-    <!-- Additional required wrapper -->
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
-
+    <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
       <div class="swiper-slide"><img src="assets/ApacheKafka.svg" alt="Livro sobre ApacheKafka"></div>
@@ -103,11 +103,10 @@
       <div class="swiper-slide"><img src="assets/Nodejs.svg" alt="Livro sobre node.js"></div>
       <div class="swiper-slide"><img src="assets/Arquitetura.svg" alt="Livro sobre Arquitetura"></div>
       <div class="swiper-slide"><img src="assets/Angular.svg" alt="Livro sobre Angular"></div>
-  
+    </div>
     <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
-
   </div>
 
   <div class="card">
@@ -137,11 +136,11 @@
         <section class=”carrossel”>
             <h2 class="carrossel__titulo">Mais vendidos</h2>
             <!-- Slider main container -->
+            <div class="carrossel__container">
             <div class="swiper">
-                <!-- Additional required wrapper -->
                 <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>
-            
+                <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                   <!-- Slides -->
                 <div class="swiper-slide"><img src="assets/ApacheKafka.svg" 
@@ -156,7 +155,7 @@
                         alt="Livro sobre Arquitetura"></div>
                 <div class="swiper-slide"><img src="assets/Angular.svg" 
                         alt="Livro sobre Angular"></div>
-
+                </div>
                 <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
@@ -317,6 +316,5 @@
             type: 'bullets',
         },
       });</script>
-
 </body>
 </html>
